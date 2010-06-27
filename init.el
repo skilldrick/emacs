@@ -26,7 +26,7 @@
       (cons '("\\.text" . markdown-mode) auto-mode-alist))
 
 (load "~/.emacs.d/site-lisp/js.el")
-(load "/usr/local/lib/nxhtml/autostart.el")
+(load "~/.emacs.d/site-lisp/nxhtml/autostart.el")
 (add-to-list 'auto-mode-alist '("\\.php\\'" . php-mode))
 
 (setq-default indent-tabs-mode nil)
