@@ -29,4 +29,12 @@
 (load "~/.emacs.d/site-lisp/nxhtml/autostart.el")
 (add-to-list 'auto-mode-alist '("\\.php\\'" . php-mode))
 
+;; Interactively Do Things (highly recommended, but not strictly required)
+(require 'ido)
+(ido-mode t)
+
+;; Rinari
+(add-to-list 'load-path "~/path/to/your/elisp/rinari")
+(require 'rinari)
+
 (setq-default indent-tabs-mode nil)
