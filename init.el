@@ -27,14 +27,24 @@
 
 (load "~/.emacs.d/site-lisp/js.el")
 (load "~/.emacs.d/site-lisp/nxhtml/autostart.el")
+
+
+
 (add-to-list 'auto-mode-alist '("\\.php\\'" . php-mode))
+;;(add-to-list 'auto-mode-alist '("\\.html\\.erb\\'" . eruby-nxhtml-mumamo))
 
 ;; Interactively Do Things (highly recommended, but not strictly required)
 (require 'ido)
 (ido-mode t)
 
 ;; Rinari
-(add-to-list 'load-path "~/path/to/your/elisp/rinari")
+(add-to-list 'load-path "~/.emacs.d/site-lisp/rinari")
 (require 'rinari)
+
+;;; rhtml-mode
+(add-to-list 'load-path "~/.emacs.d/site-lisp/rhtml")
+(require 'rhtml-mode)
+(add-hook 'rhtml-mode-hook
+     	  (lambda () (rinari-launch)))
 
 (setq-default indent-tabs-mode nil)
