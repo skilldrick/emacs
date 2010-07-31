@@ -46,6 +46,10 @@
 (require 'rhtml-mode)
 (add-to-list 'auto-mode-alist '("\.rjs$" . ruby-mode))
 (add-to-list 'auto-mode-alist '("\.builder$" . ruby-mode))
+
+;;; Yaml
+(require 'yaml-mode)
+(add-to-list 'auto-mode-alist '("\\.yml$" . yaml-mode))
 (add-hook 'rhtml-mode-hook
      	  (lambda () (rinari-launch)))
 
