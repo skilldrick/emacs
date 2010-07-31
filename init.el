@@ -49,4 +49,6 @@
 (add-hook 'rhtml-mode-hook
      	  (lambda () (rinari-launch)))
 
+(setq rinari-tags-file-name "TAGS")
+
 (setq-default indent-tabs-mode nil)
