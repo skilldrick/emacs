@@ -47,6 +47,7 @@
 (add-to-list 'auto-mode-alist '("\.rjs$" . ruby-mode))
 (add-to-list 'auto-mode-alist '("\.builder$" . ruby-mode))
 
+;;; Color Theme
 (require 'color-theme)
 (color-theme-initialize)
 (load-file "~/.emacs.d/site-lisp/themes/color-theme-railscasts.el")
