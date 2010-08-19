@@ -37,7 +37,6 @@
      (font-lock-warning-face ((t (:foreground "Pink"))))
      (paren-face-match-light ((t (:foreground "#FFC66D" :background "#555577"))))
      (highlight ((t (:background "darkolivegreen"))))
-     (query-replace ((t (:background "darkolivegreen"))))
      (italic ((t (:italic t))))
      (modeline ((t (:background "#A5BAF1" :foreground "black"))))
      (modeline-buffer-id ((t (:background "#A5BAF1" :foreground 
@@ -49,6 +48,7 @@
      (region ((t (:background "#555577"))))
      (primary-selection ((t (:background "#555577"))))
      (isearch ((t (:background "#555555"))))
+     (query-replace ((t (:background "#555555"))))
      (zmacs-region ((t (:background "#555577")))) 
      (secondary-selection ((t (:background "darkslateblue")))) 
      (flymake-errline ((t (:background "LightSalmon" :foreground 
