@@ -31,6 +31,7 @@
 
 
 (add-to-list 'auto-mode-alist '("\\.php\\'" . php-mode))
+(add-to-list 'auto-mode-alist '("\\.jsx\\'" . javascript-mode))
 ;;(add-to-list 'auto-mode-alist '("\\.html\\.erb\\'" . eruby-nxhtml-mumamo))
 
 ;; Interactively Do Things (highly recommended, but not strictly required)
