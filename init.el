@@ -3,7 +3,6 @@
   ;; If you edit it by hand, you could mess it up, so be careful.
   ;; Your init file should contain only one such instance.
   ;; If there is more than one, they won't work right.
-;; '(ange-ftp-try-passive-mode t)
  '(dabbrev-upcase-means-case-search t)
  '(inhibit-startup-screen t))
 (custom-set-faces
@@ -11,7 +10,8 @@
   ;; If you edit it by hand, you could mess it up, so be careful.
   ;; Your init file should contain only one such instance.
   ;; If there is more than one, they won't work right.
- )
+ '(mumamo-background-chunk-major ((((class color) (min-colors 88) (background dark)) (:background "grey10"))))
+ '(mumamo-background-chunk-submode1 ((((class color) (min-colors 88) (background dark)) (:background "grey15")))))
 
 (setq load-path (cons "~/.emacs.d/site-lisp" load-path))
 (load-library "window")
